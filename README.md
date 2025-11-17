@@ -21,7 +21,7 @@ This project showcases a complete data engineering workflow that processes local
 
 ## 🏗️ Architecture
 
-![Architecture](screenshot/data-pipeline-arch.png)
+<img src="screenshots/data-pipeline-arch.png" alt="Architecture" width="800">
 
 
 **Data Flow:**
@@ -31,16 +31,20 @@ This project showcases a complete data engineering workflow that processes local
 4. Glue Data Catalog stores table metadata
 5. Athena queries data using SQL
 
-![Athena Query 1](screenshot/AthenaQuery1.png)
-![Athena Query 2](screenshot/AthenaQuery2.png)
-![Athena Output Files](screenshot/Athena-output-files.png)
 
-![Glue Job](screenshot/GlueJob.png)
-![Glue Output Files](screenshot/Glue-output-files.png)
+<img src="screenshots/AthenaQuery1.png" alt="Athena Query 1" width="600">
 
-![CloudFormation](screenshot/CloudFormation.png)
+<img src="screenshots/AthenaQuery2.png" alt="Athena Query 2" width="600">
 
-![Python Script](screenshot/python-script.png)
+<img src="screenshots/Athena-output-files.png" alt="Athena Output Files" width="600">
+
+<img src="screenshots/GlueJob.png" alt="Glue Job" width="600">
+
+<img src="screenshots/Glue-output-files.png" alt="Glue Output Files" width="600">
+
+<img src="screenshots/CloudFormation.png" alt="CloudFormation" width="600">
+
+<img src="screenshots/python-script.png" alt="Python Script" width="600">
 
 ---
 
