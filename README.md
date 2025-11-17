@@ -3,7 +3,10 @@
 
 An end-to-end serverless ETL data pipeline demonstrating how to ingest, transform, and analyze CSV data using AWS managed services. Built with infrastructure-as-code principles using CloudFormation.
 
----
+## 🏗️ Architecture
+
+<img src="screenshots/data-pipeline-arch.png" alt="Architecture" width="800">
+
 
 ## 📋 Project Overview
 
@@ -17,11 +20,6 @@ This project showcases a complete data engineering workflow that processes local
 - **Infrastructure Automation** → CloudFormation (IaC)
 - **Local Upload Utilities** → Python (Boto3)
 
----
-
-## 🏗️ Architecture
-
-<img src="screenshots/data-pipeline-arch.png" alt="Architecture" width="800">
 
 
 **Data Flow:**
