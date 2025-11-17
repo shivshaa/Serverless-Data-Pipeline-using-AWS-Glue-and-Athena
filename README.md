@@ -1,9 +1,5 @@
 # 🚀 AWS ETL Pipeline: CSV to Analytics
 
-[![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)](https://aws.amazon.com/)
-[![Glue](https://img.shields.io/badge/AWS-Glue-blueviolet)](https://aws.amazon.com/glue/)
-[![Athena](https://img.shields.io/badge/AWS-Athena-blue)](https://aws.amazon.com/athena/)
-[![CloudFormation](https://img.shields.io/badge/IaC-CloudFormation-green)](https://aws.amazon.com/cloudformation/)
 
 An end-to-end serverless ETL data pipeline demonstrating how to ingest, transform, and analyze CSV data using AWS managed services. Built with infrastructure-as-code principles using CloudFormation.
 
@@ -25,9 +21,8 @@ This project showcases a complete data engineering workflow that processes local
 
 ## 🏗️ Architecture
 
-```
-<img src="screenshot/data-pipeline-arch.png" alt="Architecture" width="800" height="450"> 
-```
+![Architecture](screenshot/data-pipeline-arch.png)
+
 
 **Data Flow:**
 1. Upload CSV files to S3 raw bucket
@@ -36,16 +31,16 @@ This project showcases a complete data engineering workflow that processes local
 4. Glue Data Catalog stores table metadata
 5. Athena queries data using SQL
 
-<img src="screenshot/AthenaQuery1.png" alt="Athena Query 1" width="600" height="350">
-<img src="screenshot/AthenaQuery2.png" alt="Athena Query 2" width="600" height="350">
-<img src="screenshot/Athena-output-files.png" alt="Athena Output Files" width="600" height="350">
+![Athena Query 1](screenshot/AthenaQuery1.png)
+![Athena Query 2](screenshot/AthenaQuery2.png)
+![Athena Output Files](screenshot/Athena-output-files.png)
 
-<img src="screenshot/GlueJob.png" alt="Glue Job" width="600" height="350">
-<img src="screenshot/Glue-output-files.png" alt="Glue Output Files" width="600" height="350">
+![Glue Job](screenshot/GlueJob.png)
+![Glue Output Files](screenshot/Glue-output-files.png)
 
-<img src="screenshot/CloudFormation.png" alt="CloudFormation" width="700" height="400">
+![CloudFormation](screenshot/CloudFormation.png)
 
-<img src="screenshot/python-script.png" alt="Python Script" width="700" height="400">
+![Python Script](screenshot/python-script.png)
 
 ---
 
