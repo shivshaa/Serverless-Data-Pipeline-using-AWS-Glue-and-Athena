@@ -26,14 +26,7 @@ This project showcases a complete data engineering workflow that processes local
 ## 🏗️ Architecture
 
 ```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐     ┌──────────────┐
-│  Local CSV  │────▶│  S3 Raw Zone │────▶│  Glue Job   │────▶│Curated Zone  │
-└─────────────┘     └──────────────┘     └─────────────┘     └──────────────┘
-                                                                      │
-                                                                      ▼
-                    ┌──────────────┐     ┌─────────────┐      ┌──────────────┐
-                    │  Athena      │◀────│Glue Catalog │◀────│Glue Crawler  │
-                    └─────────────-┘     └──────────────┘     └─────────────-┘    
+<img src="screenshot/data-pipeline-arch.png" alt="Architecture" width="800" height="450"> 
 ```
 
 **Data Flow:**
@@ -43,14 +36,17 @@ This project showcases a complete data engineering workflow that processes local
 4. Glue Data Catalog stores table metadata
 5. Athena queries data using SQL
 
-[![Athena]](AthenaQuery1.png)
-[![Athena]](AthenaQuery2.png)
-[![Athena]](Athena-output-files.png)
-[![Glue]](GlueJob.png)
-[![Glue](Glue-output-files.png)
-[![Athena](https://aws.amazon.com/athena/)
-[![CloudFormation](CloudFormation.png)
-[![Script](python-script.png)
+<img src="screenshot/AthenaQuery1.png" alt="Athena Query 1" width="600" height="350">
+<img src="screenshot/AthenaQuery2.png" alt="Athena Query 2" width="600" height="350">
+<img src="screenshot/Athena-output-files.png" alt="Athena Output Files" width="600" height="350">
+
+<img src="screenshot/GlueJob.png" alt="Glue Job" width="600" height="350">
+<img src="screenshot/Glue-output-files.png" alt="Glue Output Files" width="600" height="350">
+
+<img src="screenshot/CloudFormation.png" alt="CloudFormation" width="700" height="400">
+
+<img src="screenshot/python-script.png" alt="Python Script" width="700" height="400">
+
 ---
 
 ## 🛠️ AWS Services Used
